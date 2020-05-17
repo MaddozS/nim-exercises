@@ -5,8 +5,8 @@ let num = parseInt(readLine(stdin))
 
 var result:string
 
-for i in countup(0,num):
-    
+for i in 0..num:
+
     result = ""
     if i mod 3 == 0:
         result = result & "Fizz"
